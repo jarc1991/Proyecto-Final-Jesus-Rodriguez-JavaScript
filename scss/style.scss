@@ -1,0 +1,216 @@
+//font-family: 
+//font-family: 'Playfair Display', serif;
+//font-family: 'Roboto', sans-serif;
+
+@import "../scss/mediaq";
+
+$colorLetter: white;
+$fontSizesTitles : 50px;
+$family: 'Cinzel', serif;
+$align: center;
+
+@mixin sizes ($width, $height) {
+
+    height:$height;
+    width: $width;
+}
+
+.backgroundBody {
+
+    background-color: black;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $colorLetter;
+    font-family: $family;
+}
+
+.letter {
+
+    align-items: $align;
+    color: $colorLetter;
+   
+}
+
+a {
+
+    text-decoration: none;
+
+    .titleHeader {
+
+        margin: 0;
+        font-size: $fontSizesTitles;
+        font-weight: 700;
+        padding-top: 15px;
+        padding-bottom: 15px;
+       
+    }
+}
+
+.titleHeader {
+
+    margin: 0;
+    font-size: $fontSizesTitles;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+
+.imgPrincipal {
+
+    @include sizes(500px,300px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.h2Title {
+
+    color: $colorLetter;
+    font-size: $fontSizesTitles;
+    font-weight: 600;
+    padding-top: 15px;
+    padding: 15px;
+}
+
+.tarjetaDeProducto {
+    
+    border: 2px solid rgb(116, 108, 108);
+    display: flex;
+    flex-direction: column;
+    align-items: $align;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+
+    .btnAgregar {
+
+        background-color: rgba(248, 248, 243, 0.842);
+        color: black;
+        border-radius: 10px;
+        padding: 5px;
+        font-weight: bold;
+        border: 5px solid rgba(207, 207, 49, 0.842);
+    }
+}
+
+h3 {
+
+    text-align: $align;
+}
+
+p {
+
+    text-align: $align;
+}
+
+.imagentarjeta {
+
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#carritoDOM {
+
+    border: 10px solid white;
+    border-radius: 10px;
+    width: 50%; 
+    height: 100%;
+
+}
+
+.colorBusca {
+
+    background-color: rgba(248, 248, 243, 0.842);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid rgba(207, 207, 49, 0.842);
+    
+}
+
+.btnBuscador {
+
+    background-color: rgba(248, 248, 243, 0.842);
+    color: black;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.ocultar {
+
+    display: none;
+
+} 
+
+.formatoRegYSes {
+
+    width: 400px;
+    height: 270px;
+    border: 5px solid white;
+    border-radius: 8px;
+    margin: 30px;
+    padding: 15px;
+}
+
+.letraInput {
+
+    color: black;
+
+}
+
+.btnRegIn {
+
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: darkseagreen;
+    padding: 10px;
+    margin-top: 5px;
+    color: black;
+}
+
+.btnCarrito {
+
+    @extend .btnBuscador;
+    padding: 15px;
+    width: 250px;
+    margin: 10px;
+    
+}
+
+.total {
+
+    font-weight: bold;
+    font-size: 700;
+}
+
+footer {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .icono {
+
+        height: 45px;
+        width: 50px;
+    
+    }
+
+    .copyright {
+
+        padding-top: 20px;
+    }
+
+}
+

@@ -1,0 +1,97 @@
+[{
+    "id": 11,
+    "title": "flotador",
+    "nombre": "Flotador I Drink W.",
+    "categoria": "deportes",
+    "precio": 20000,
+    "stock": 5,
+    "color": "vinotinto",
+    "img": "https://cdn.shopify.com/s/files/1/0605/2551/0906/products/IDW-Floatie1_750x.png?v=1666634188"
+  },
+  {
+    "id": 12,
+    "title": "remera",
+    "nombre": "Remera I Drink W.",
+    "categoria": "indumentaria",
+    "precio": 6500,
+    "stock": 5,
+    "color": "vinotinto",
+    "img": "https://cdn.shopify.com/s/files/1/0605/2551/0906/products/T-shirt-Maroon-Front_750x.png?v=1666633728"
+  },
+  {
+    "id": 13,
+    "title": "gorra",
+    "nombre": "Gorra I Drink W.",
+    "categoria": "indumentaria",
+    "precio": 5000,
+    "stock": 5,
+    "color": "vinotinto",
+    "img": "https://cdn.shopify.com/s/files/1/0605/2551/0906/products/Hat-Maroon-Front-Detail_750x.png?v=1666671140"
+  },
+  {
+    "id": 14,
+    "title":"vinilo",
+    "nombre": "Vinilo 30",
+    "categoria": "vinilo",
+    "precio": 6000,
+    "stock": 5,
+    "color": "N/A",
+    "img": "https://cdn.shopify.com/s/files/1/0605/2551/0906/products/AA30-LP_750x.png?v=1634164889"
+  },
+  {
+    "id": 15,
+    "title": "cd",
+    "nombre": "CD 30",
+    "categoria": "disco",
+    "precio": 4500,
+    "stock": 5,
+    "color": "N/A",
+    "img": "https://cdn.shopify.com/s/files/1/0605/2551/0906/products/AA30-CD_750x.png?v=1634165117"
+  },
+  {
+    "id": 16,
+    "title": "cassette",
+    "nombre": "Cassette Easy on me",
+    "categoria": "cassette",
+    "precio": 6000,
+    "stock": 5,
+    "color": "negro",
+    "img": "https://cdn.shopify.com/s/files/1/0605/2551/0906/products/Easy-On-Me-Cassette_750x.png?v=1634238643"
+  },
+  {
+    "id": 17,
+    "title":"box",
+    "nombre": "Box 30",
+    "categoria": "disco",
+    "precio": 15000,
+    "stock": 5,
+    "img": "https://cdn.shopify.com/s/files/1/0605/2551/0906/products/Bundle-Group2-cassette_750x.jpg?v=1635708191"
+  },
+  {
+    "id": 18,
+    "title": "cd",
+    "nombre": "CD 19",
+    "categoria": "disco",
+    "precio": 3500,
+    "stock": 5,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Adele_19.webp"
+  },
+  {
+    "id": 19,
+    "title": "cd",
+    "nombre": "CD 21",
+    "categoria": "disco",
+    "precio": 4000,
+    "stock": 5,
+    "img": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png"
+  },
+  {
+    "id": 20,
+    "title": "cd",
+    "nombre": "CD 25",
+    "categoria": "disco",
+    "precio": 4000,
+    "stock": 5,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_335111-MLA20497658446_112015-W.jpg"
+  }
+]
