@@ -1,6 +1,8 @@
 @media only screen and (min-width: 250px) and (max-width: 991px) {
   .imgMobile {
-    display: none; } }
+    display: none; }
+  .titleHeader {
+    text-align: center; } }
 
 .backgroundBody {
   background-color: black; }
