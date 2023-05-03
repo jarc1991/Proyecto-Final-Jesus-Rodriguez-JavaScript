@@ -5,7 +5,7 @@ fetch ("./data.json")
   .then(productos => {
     miAplicacion(productos)
   })
-    
+    .catch((error) => console.log(error))
 function miAplicacion(productos) {
 
 rendeProducts(productos)
