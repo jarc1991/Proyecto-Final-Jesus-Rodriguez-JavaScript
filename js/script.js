@@ -5,7 +5,18 @@ fetch ("./data.json")
   .then(productos => {
     miAplicacion(productos)
   })
-    .catch((error) => console.log(error))
+    .catch((error) => 
+
+      Swal.fire({
+
+        icon: 'error',
+        title: 'No hay stock',
+        background: 'rgb(116, 108, 108)',
+        color: 'white'
+    
+      })
+    
+    )
 function miAplicacion(productos) {
 
 rendeProducts(productos)
