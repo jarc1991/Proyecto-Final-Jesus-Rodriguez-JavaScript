@@ -10,7 +10,7 @@ fetch ("./data.json")
       Swal.fire({
 
         icon: 'error',
-        title: 'No hay stock',
+        title: 'Error en el sistema',
         background: 'rgb(116, 108, 108)',
         color: 'white'
     
